@@ -13,8 +13,8 @@ Matiasevich solver was also tested with custom benchmark developed by [Antonina 
 
 | Benchmark        | Number of tests  | Solved Standard | Cycled Standard | Solved Finite | Cycled Finite | Solved Z3      | Cycled Z3       | Solved CVC4    | Cycled CVC4     |
 | ---------------- |:----------------:|:---------------:|:---------------:|:-------------:|:-------------:|:--------------:|:---------------:|:--------------:|----------------:|
-| First            | 200              |  200            | 0               | 200           | 0             |  190           | 10              | 
+| First            | 200              |  200            | 0               | 200           | 0             |  190           | 10              | 192            | 8               |
 | Second           | 9                |   9             | 0               | 9             | 0             |  3             | 6               | 1              | 8               |
 | Third            | 200              |                 |
-| Fifth            | 200              |  198            | 2               | 200           | 0             |  177           | 23              | 
+| Fifth            | 200              |  198            | 2               | 200           | 0             |  186           | 14              | 196            | 4               |  
 | Custom           | 50               |  45             | 5               | 46            | 4             |  30            | 20              | 29             | 21              |
